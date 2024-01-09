@@ -14,10 +14,6 @@ public class James {
 		driver.get("https://practice.automationtesting.in/my-account/");
 		
 		driver.manage().window().maximize();
-
-		driver.navigate().back();
-
-		driver.navigate().forward();
 				
 		WebElement username =driver.findElement(By.xpath("//input[@id=\"username\"]"));
 		
